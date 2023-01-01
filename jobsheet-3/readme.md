@@ -1,14 +1,9 @@
-# Jobsheet 3: Topologi Jaringan Lokal dan Wifi
+# Jobsheet 3
+Topologi Jaringan Lokal dan Wifi
 
 ## Anggota Kelompok
-- [Azarya Paska Saputra - 4.31.20.0.05](https://github.com/azpaska)
-- [Laurensius Liquori - 4.31.20.0.13](https://github.com/llaurensius)
-
-## Daftar Isi
-  * [Hasil Percobaan](#hasil-percobaan)
-  * [Analisa](#analisa)
-  * [Kesimpulan](#kesimpulan)
-
+- Hanif Nugraha Ramadhan
+- Muhammad Rafif Hasani
 
 ## Hasil Percobaan
 
@@ -338,15 +333,6 @@ void loop(){
 ```
 </details>
  
-*Serial Monitor*<br /><br />
-![sm](https://raw.githubusercontent.com/llaurensius/pratikum-sistemembeded-2223/main/jobsheet-3/js3.5/js3.5.jpg)<br /><br />
-*Tampilan Web PC*<br /><br />
-![pc](https://raw.githubusercontent.com/llaurensius/pratikum-sistemembeded-2223/main/jobsheet-3/js3.5/web.jpg)<br /><br />
-*Tampilan Web Smartphone*<br /><br />
-<img src="https://raw.githubusercontent.com/llaurensius/pratikum-sistemembeded-2223/main/jobsheet-3/js3.5/web%20hp.jpg" alt="hp" height="500px">
-    
-
-
 ## Analisa
 
 A.	ESP32 Wi-Fi Modes dan Wifi-Scan
