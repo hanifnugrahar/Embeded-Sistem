@@ -2,13 +2,11 @@
 # Jobsheet 1 
 DASAR PEMROGRAMAN ESP32 UNTUK PEMROSESAN DATA INPUT/OUTPUT ANALOG DAN DIGITAL
 
-[![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)](https://www.arduino.cc/)
-
 
 ## Anggota Kelompok
 
-- [Azarya Paska Saputra - 4.31.20.0.05](https://github.com/azpaska)
-- [Laurensius Liquori - 4.31.20.0.13](https://github.com/llaurensius)
+- Hanif Nugraha Ramadhan
+- Muhammad Rafif Hasani
 
 ## Analisa BLINK
 
@@ -167,33 +165,6 @@ delay(500);
 # Dokumentasi
 ## GPIO
 
-
-https://user-images.githubusercontent.com/118155742/210073882-773703e8-a648-4e19-9a5b-10b4a4c4d989.mp4
-
-
-https://user-images.githubusercontent.com/118155742/210073946-857643b9-5e8f-4ddf-971d-5384ba1ee032.mp4
-
-
-https://user-images.githubusercontent.com/118155742/210074050-b0654e84-c6df-43be-a71c-67f6915a760e.mp4
-
-
-https://user-images.githubusercontent.com/118155742/210074079-f5f3c587-0153-4375-bdf1-30d8cec8c72b.mp4
-
-
-
-
-
 ## PWM
-https://user-images.githubusercontent.com/118155742/210073593-e0bb21a0-879f-4291-b16d-23c9d7c4c185.mp4
-
-
-https://user-images.githubusercontent.com/118155742/210074424-23869e47-c522-4863-9fd2-a46d586e8795.mp4
-
 
 ## ADC & DAC
-
-
-https://user-images.githubusercontent.com/118155742/210075850-ed103514-8303-4f57-9a01-782e828895ee.mp4
-
-
-![adc dac two](https://user-images.githubusercontent.com/118155742/210075481-813937f8-3c8a-42dd-a7f8-2ca4174be2db.jpg)
