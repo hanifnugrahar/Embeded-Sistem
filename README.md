@@ -11,8 +11,8 @@
 
 ## Anggota Kelompok
 
-- [Hanif Nugraha Ramadhan]
-- [M. Rafif Hasani]
+- Hanif Nugraha Ramadhan
+- M. Rafif Hasani
 ## List Jobsheet
 
  - [Jobsheet 1 - DASAR PEMROGRAMAN ESP32 UNTUK PEMROSESAN DATA INPUT/OUTPUT ANALOG DAN DIGITAL](https://github.com/llaurensius/pratikum-sistemembeded-2223/tree/main/jobsheet-1)
