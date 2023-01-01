@@ -12,8 +12,6 @@ Cayenne (MQTT) + SENSOR (DHT11) + LED (ON/OFF) + BUTTON di website monitoring
 
 ## Skematik
 ![image](https://user-images.githubusercontent.com/118155742/210129902-f24a85d2-176a-4027-9952-b82e8edb55d9.png)
-[https://github.com/hanifnugrahar/Embeded-Sistem/blob/main/babik.mp4](https://github.com/hanifnugrahar/Embeded-Sistem/blob/86e784e8b27cfdcf952690f147d85196f5dbefad/babik.mp4)
-
 
 
 ## Analisa
