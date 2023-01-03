@@ -5,8 +5,8 @@ DASAR PEMROGRAMAN ESP32 UNTUK PEMROSESAN DATA INPUT/OUTPUT ANALOG DAN DIGITAL
 
 ## Anggota Kelompok
 
-- Hanif Nugraha Ramadhan
-- Muhammad Rafif Hasani
+- Hanif Nugraha Ramadhan [4.31.20.0.10]
+- Muhammad Rafif Hasani  [4.31.20.0.16]
 
 ## Analisa BLINK
 
