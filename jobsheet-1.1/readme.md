@@ -181,8 +181,6 @@ Dalam pratikum ini dibuktikan bahwa komunikasi berjalan satu arah dimana ESP32 s
 
 A. Mengirim Pesan yang Sama Ke Beberapa Board ESP32
 
-Koding 
-
  ## Transmitter
  ```
  
@@ -274,6 +272,7 @@ void loop() {
   }
   delay(2000); //Jeda loop selama 2 detik
 }
+```
 
 ## Receiver 
 ```
@@ -319,8 +318,12 @@ esp_now_register_recv_cb(OnDataRecv);
 }
 void loop() { 
 }
+```
 
-
+# KESIMPULAN 
+Dalam pratikum ini ESP32 berkomunikasi melalui protokol ESP-NOW dengan 3 board ESP32 mengirim di 1 ESP32.
+Perangkat ESP akan berkomunikasi melalui WiFi yang saling terhubung satu sama lain dengan mengirimkan data random berupa angka random.
+Percobaan berhasil dengan mengirim data dari 3 ESP ke 1 ESP sesuai protokol ESP-NOW dan memmbuktikan bahwa EPS32 dapat saling berkomunikasi secara langsung
 
 
 
