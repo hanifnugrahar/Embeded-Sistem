@@ -40,8 +40,6 @@ MAC Address diperlukan untuk identifikasi perangkat ESP32 dalam protokol komunik
 ![MAC ADDRESS](https://user-images.githubusercontent.com/118155742/210126557-2fee30cf-cfcf-4cdf-b783-71a9ca477aa7.png)
 
 
-
-
 ## B. ESP-NOW One-Way Point-to-Point Communication
 ## Transmitter
 ```
@@ -173,9 +171,9 @@ Dalam pratikum ini dibuktikan bahwa komunikasi berjalan satu arah dimana ESP32 s
 
 
 # DOKUMENTASI
-![rx]()
-![tx]()
-![rx tx]()
+![image](https://user-images.githubusercontent.com/118667288/210326046-d51013ff-7f17-437f-9fff-e922d39ef8fa.png)
+![image](https://user-images.githubusercontent.com/118667288/210326062-b71eda06-8f59-4744-bf09-511645ed0dff.png)
+
 
 ## C. One-Way, One-to-Many Communication
 
@@ -326,8 +324,7 @@ Perangkat ESP akan berkomunikasi melalui WiFi yang saling terhubung satu sama la
 Percobaan berhasil dengan mengirim data dari 3 ESP ke 1 ESP sesuai protokol ESP-NOW dan memmbuktikan bahwa EPS32 dapat saling berkomunikasi secara langsung
 
 # DOKUMENTASI
-
-
+![image](https://user-images.githubusercontent.com/118667288/210325828-a8296811-24df-4c96-8a71-e8fb9741e097.png)
 
 
 ## D. One-Way, Many-to-One Communication
@@ -508,11 +505,11 @@ void loop() {
 Dalam pratikum yang memanfaatkan protokol ESP-NOW untuk mengirimkan data dari satu ESP ke beberapa ESP memberikan kesimpulan bahwa ESP dapat saling berkomunikasi ke beberapa board untuk mengirimkan data. Dalam pratikum kali ini data berhasil dikirimkan dari satu ESP dan diterima oleh tiga ESP, jika salah satu penerima ESP mati maka data tidak terkirim dari ESP pengirim.
 
 # DOKUMENTASI
-Transmitter
+## Transmitter
 ![image](https://user-images.githubusercontent.com/118667288/210325444-961ea34b-c80f-4c0e-b26c-09beecba2e02.png)
 
 
-Receiver
+## Receiver
 ![image](https://user-images.githubusercontent.com/118667288/210325332-b77a69b1-5db5-4357-8d47-c08ed2f5081e.png)
 
 
@@ -635,7 +632,7 @@ void getReadings(){
 
 
 # DOKUMENTASI
-## Receive
+## Receiver
 ![500000](https://user-images.githubusercontent.com/118155742/210127901-444d1674-53e9-433c-8b2d-fafd67f2d557.jpg)
 
 ## Transmitter
