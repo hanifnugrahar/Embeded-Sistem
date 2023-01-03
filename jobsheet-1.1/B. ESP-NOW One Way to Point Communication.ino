@@ -1,6 +1,5 @@
 Rx 
 
-
 #include <esp_now.h> 
 #include <WiFi.h>
 // Struktur pesan sender dan receiver harus sama 
@@ -42,6 +41,11 @@ esp_now_register_recv_cb(OnDataRecv);
 }
 void loop() { 
 }
+
+
+
+
+
 
 Tx
 
