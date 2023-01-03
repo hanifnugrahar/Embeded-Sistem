@@ -10,7 +10,7 @@ PROTOKOL KOMUNIKASI DAN SENSOR
 
 ## 1. ESP32 Capacitive Touch Sensor
 # Koding
-a-capasitivetouchsensor - Hanya membaca sentuhan yang dilakukan dan menampilkan di serial monitor
+## A-capasitivetouchsensor - Hanya membaca sentuhan yang dilakukan dan menampilkan di serial monitor
 ```
 // ESP32 Touch Test
 // Just test touch pin - Touch0 is T0 which is on GPIO 4. 
@@ -26,7 +26,7 @@ delay(1000);
 ```
 
 
-a-capasitivetouchsensorled1 - Jika disentuh maka LED akan menyala ketika disentuh dan tidak menyala jika tidak disentuh
+## A-capasitivetouchsensorled1 - Jika disentuh maka LED akan menyala ketika disentuh dan tidak menyala jika tidak disentuh
 ```
 // menginisiasi pin GPIO yang akan dipakai
 const int touchPin = 4; //Pin GPIO yang mendeteksi sentuhan
@@ -65,7 +65,7 @@ void loop(){
 ```
 
 
-a-capasitivetouchsensorled2 - LED Running
+## A-capasitivetouchsensorled2 - LED Running
 ```
 // menginisiasi pin GPIO yang akan dipakai
 const int touchPin = 4; 
@@ -121,6 +121,7 @@ Pratikum ini memberikan kesimpulan bahwa dalam pemanfaatan ESP32 sebagai mikroko
 
 
 # Dokumentasi
+
 ![image](https://user-images.githubusercontent.com/118667288/210337068-a70fb23b-e4d1-4585-b815-69f2e67aa409.png)
 ![image](https://user-images.githubusercontent.com/118667288/210337090-71b93c7e-7c06-42fd-8e42-bb662b11c0aa.png)
 
@@ -128,6 +129,8 @@ Pratikum ini memberikan kesimpulan bahwa dalam pemanfaatan ESP32 sebagai mikroko
 
 ##
 
+## 2. Mengakses Sensor DHT 11 (Single/WIRE BUS)
 
+# Koding
 
 
