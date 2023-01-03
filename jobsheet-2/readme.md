@@ -4,8 +4,8 @@ PROTOKOL KOMUNIKASI DAN SENSOR
 
 ## Anggota Kelompok
 
-- Hanif Nugraha Ramadhan
-- Muhammad Rafif Hasani
+- Hanif Nugraha Ramadhan [4.31.20.0.10]
+- Muhammad Rafif Hasani  [4.31.20.0.16]
 
 
 ## 1. ESP32 Capacitive Touch Sensor
