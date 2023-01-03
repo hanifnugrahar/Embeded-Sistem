@@ -633,7 +633,6 @@ void getReadings(){
 
 # DOKUMENTASI
 
-
 ## Receiver
 ![500000](https://user-images.githubusercontent.com/118155742/210127901-444d1674-53e9-433c-8b2d-fafd67f2d557.jpg)
 
