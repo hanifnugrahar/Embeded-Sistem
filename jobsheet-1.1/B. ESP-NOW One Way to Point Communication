@@ -1,5 +1,4 @@
- ## B Rx
- ```
+Rx
 
 #include <esp_now.h> 
 #include <WiFi.h>
@@ -43,9 +42,8 @@ esp_now_register_recv_cb(OnDataRecv);
 void loop() { 
 }
 
-## B Tx
+Tx
 
-```
 #include <esp_now.h>
 #include <WiFi.h>
 
