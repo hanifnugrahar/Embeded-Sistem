@@ -6,8 +6,6 @@ delay(1000); // give me time to bring up serial monitor
 Serial.println("ESP32 Touch Test");
 }
 void loop() {
-Serial.println(touchRead(4));  // get value of Touch 0 pin = GPIO 4 
+Serial.println(touchRead(4));  // menampilkan nilai dari sentuhan yang ada di pin GPIO 4
 delay(1000);
 }
-Footer
-© 2023 GitHub, Inc.
