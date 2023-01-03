@@ -508,12 +508,15 @@ void loop() {
 Dalam pratikum yang memanfaatkan protokol ESP-NOW untuk mengirimkan data dari satu ESP ke beberapa ESP memberikan kesimpulan bahwa ESP dapat saling berkomunikasi ke beberapa board untuk mengirimkan data. Dalam pratikum kali ini data berhasil dikirimkan dari satu ESP dan diterima oleh tiga ESP, jika salah satu penerima ESP mati maka data tidak terkirim dari ESP pengirim.
 
 # DOKUMENTASI
+Transmitter
+![image](https://user-images.githubusercontent.com/118667288/210325444-961ea34b-c80f-4c0e-b26c-09beecba2e02.png)
 
 
-```
+Receiver
+![image](https://user-images.githubusercontent.com/118667288/210325332-b77a69b1-5db5-4357-8d47-c08ed2f5081e.png)
 
-  
-}
+
+
 ## E. Two-Way Communication
 
 ```
@@ -628,10 +631,10 @@ void getReadings(){
 ```
 
 
-# Kesimpulan
+# KESIMPULAN
 
 
-# Dokumentasi
+# DOKUMENTASI
 ## Receive
 ![500000](https://user-images.githubusercontent.com/118155742/210127901-444d1674-53e9-433c-8b2d-fafd67f2d557.jpg)
 
