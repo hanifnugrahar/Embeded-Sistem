@@ -2,8 +2,8 @@
 Topologi Jaringan Lokal dan Wifi
 
 ## Anggota Kelompok
-- Hanif Nugraha Ramadhan
-- Muhammad Rafif Hasani
+- Hanif Nugraha Ramadhan [4.31.20.0.10]
+- Muhammad Rafif Hasani  [4.31.20.0.16]
 
 ## Hasil Percobaan
 
