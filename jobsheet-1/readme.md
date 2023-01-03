@@ -163,8 +163,45 @@ delay(500);
 
 
 # Dokumentasi
-## GPIO
 
-## PWM
+https://user-images.githubusercontent.com/121760251/210311392-a8a0d752-7c27-4862-ad30-29eb8c16c2d2.mp4
 
-## ADC & DAC
+
+https://user-images.githubusercontent.com/121760251/210311783-d97dfd88-1c1f-45ae-8a64-a6d143137158.mp4
+
+
+
+https://user-images.githubusercontent.com/121760251/210312059-e11c936b-4638-4aaf-8762-935cfa664440.mp4
+
+
+
+https://user-images.githubusercontent.com/121760251/210312152-f4f3496d-d7cc-49ad-864a-bb74818a6374.mp4
+
+
+
+https://user-images.githubusercontent.com/121760251/210312220-4b84482f-95cc-485d-9a4c-e7dc17ab9648.mp4
+
+
+
+https://user-images.githubusercontent.com/121760251/210312251-6771d256-70fd-45c8-bd2d-a86f3c7d1d56.mp4
+
+
+
+https://user-images.githubusercontent.com/121760251/210312308-7be572bf-ecf9-449c-84f7-75e029c8133b.mp4
+
+
+
+https://user-images.githubusercontent.com/121760251/210312342-e315d1f7-2e07-495e-98be-c1ceba0347ec.mp4
+
+
+
+https://user-images.githubusercontent.com/121760251/210312382-a32de21c-b8f9-44a4-9353-d1e644f0b86f.mp4
+
+
+
+https://user-images.githubusercontent.com/121760251/210312426-b50dc716-013b-4446-8b25-15a08f41f86f.mp4
+
+
+
+https://user-images.githubusercontent.com/121760251/210312478-b60fe04c-dcc5-48b9-bce5-f4144c116ff7.mp4
+
