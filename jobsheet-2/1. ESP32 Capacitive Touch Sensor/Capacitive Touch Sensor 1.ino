@@ -1,6 +1,6 @@
-// set pin numbers
-const int touchPin = 4; 
-const int ledPin = 16;
+// menginisiasi pin GPIO yang akan dipakai
+const int touchPin = 4; //Pin GPIO yang mendeteksi sentuhan
+const int ledPin = 16; //Pin GPIO yang akan menyalan LED sebagai keluaran
 
 // change with your threshold value
 const int threshold = 20;
@@ -10,16 +10,16 @@ int touchValue;
 void setup(){
   Serial.begin(115200);
   delay(1000); // give me time to bring up serial monitor
-  // initialize the LED pin as an output:
+  // Inisiasi LED sebagai keluaran
   pinMode (ledPin, OUTPUT);
 }
 
 void loop(){
-  // read the state of the pushbutton value:
+  // membaca sensor sentuhan
   touchValue = touchRead(touchPin);
   Serial.print(touchValue);
-  // check if the touchValue is below the threshold
-  // if it is, set ledPin to HIGH
+  // mengecek apakah ada nilai dari sentuhan
+  // jika ada maka LED akan menyala
   if(touchValue < threshold){
     // turn LED on
     digitalWrite(ledPin, HIGH);
