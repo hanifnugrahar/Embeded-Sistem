@@ -6,8 +6,8 @@ JARINGAN SENSOR NIRKABEL MENGGUNAKAN ESP-NOW
 
 ## Anggota Kelompok
 
-- [Hanif Nugraha Ramadhan]
-- [M Rafif Hasani]
+- Hanif Nugraha Ramadhan [4.31.20.0.10]
+- Muhammad Rafif Hasani  [4.31.20.0.16]
 
 
 ## A. Memperoleh MAC Address ESP32 Receiver
