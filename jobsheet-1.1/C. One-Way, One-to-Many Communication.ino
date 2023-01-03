@@ -1,4 +1,4 @@
-A. Mengirim Pesan yang Sama Ke Beberapa Board ESP32
+Mengirim Pesan yang Sama Ke Beberapa Board ESP32
 
 Rx 
 
