@@ -8,8 +8,9 @@
 <p>&nbsp;</p>
 <h4 align="center">Sistem Embeded Progam Studi D4 Teknik Telekomunikasi Politeknik Negeri Semarang</a>.</h4>
 <p>&nbsp;</p>
+<p>&nbsp;</p>
+<h4 align="center">Anggota Kelompok</a>.</h4>
+<h4 align="center"> Hanif Nugraha Ramadhan [4.31.20.0.10]</a></h4>
+<h4 align="center"> M. Rafif Hasani        [4.31.20.0.16]</a></h4>
+<p>&nbsp;</p>
 
-## Anggota Kelompok
-
-- Hanif Nugraha Ramadhan [4.31.20.0.10]
-- M. Rafif Hasani        [4.31.20.0.16]
