@@ -684,8 +684,18 @@ void loop() {
  ``` 
  ![image](https://user-images.githubusercontent.com/118667288/210915805-02f67678-ec5b-4230-b18f-cd073c253b27.png)
  
- ```
+``` 
  ![image](https://user-images.githubusercontent.com/118667288/210915837-a409fd80-4606-4b6c-8285-aa951892c225.png)
-
-
+```
  
+ ## AP MODE
+ 
+ ```
+ ![image](https://user-images.githubusercontent.com/118667288/210916044-2d483aed-6882-45e3-a6fd-b4e3970fd6f2.png)
+```
+ 
+ ## STATION MODE
+
+ ```
+ ![image](https://user-images.githubusercontent.com/118667288/210916099-c5ac27e3-5597-4228-9d74-11c3f611b9b3.png)
+
