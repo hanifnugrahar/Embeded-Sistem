@@ -97,11 +97,11 @@ CAYENNE_IN(3)
 ```
 
 
-## Kesimpulan
+## KESIMPULAN
 Dalam pratikum ini disimpulkan bahwa ESP32 dapat digunakan untuk perangkat IoT yang terhubung ke internet sehingga user dapat kontrol perangkat ESP32 dalam jarah jauh dengan syarat ESP32 selalu terhubung dengan internet dan terhubung ke broker MQTT (dalam pratikum ini menggunakan Cayenne).
 
 Pratikum ini contoh dengan membaca sensor DHT11 yang dikirimkan ke Cayenne dan Cayenne mengirimkan sebuah nilai (0/1) untuk memberikan perintah ESP32 untuk menghidupkan LED.
-## Dokumentasi
+## DOKUMENTASI
 ## ESP32 + MQTT (Cayenne) + Sensor Temperature, Humidity (DHT11) + LED (Output)
 
 https://user-images.githubusercontent.com/121760251/210358473-1bae9070-5118-448c-a296-1a2ef45dc1a3.mp4
@@ -261,13 +261,13 @@ void MQTT_connect() {
 }
 ```
 
-# RANGKAIAN
+## RANGKAIAN
 
 ![image](https://user-images.githubusercontent.com/118667288/210917439-3fab5753-4bc0-4531-b494-2601545e3152.png)
 
 ![image](https://user-images.githubusercontent.com/118667288/210917479-8d5d9cd4-a514-49f2-9ddf-d961a4737beb.png)
 
-# HASIL PERCOBAAN
+## HASIL PERCOBAAN
 
 Serial Monitor
 ![image](https://user-images.githubusercontent.com/118667288/210917732-da67957a-6d9e-484f-94e3-e3405bd348d5.png)
@@ -280,7 +280,7 @@ IFTTT
 ![image](https://user-images.githubusercontent.com/118667288/210917840-69cbf1be-0ecd-479e-aa53-56ed546da238.png)
 
 
-# KESIMPULAN 
+## KESIMPULAN 
 
 Dari percobaan yang telah dilakukan, didapat kesimpulan sebagai berikut:
 1. ESP32 dapat berkomunikasi melalui internet melalui suatu protokol. Protokol merupakan peraturan atau prosedur untuk mengirimkan sebuah data pada perangkat elektronik.
@@ -288,13 +288,13 @@ Dari percobaan yang telah dilakukan, didapat kesimpulan sebagai berikut:
 3. Salah satu server protokol MQTT yang dapat digunakan adalah Adafruit.io, dengan cara kerja publish (mengirim data ke server) dan subscribe (menerima data dari  server).
 4. ESP32 dapat saling terhubung dengan platform lain melalui internet.
 
-## C. THINGSPEAK (HTTP/REST) + SENSOR (DHT11)
+# C. THINGSPEAK (HTTP/REST) + SENSOR (DHT11)
 
 ## ANALISA 
 
 Pada percobaan kali ini, digunakan protokol HTTP/REST dan server Thingspeak. REST atau Representational State Transfer adalah gaya arsitekturial dan pendekatan komunikasi yang bersifat stateless dan menggunakan HTTP/HTTPS untuk transmisi data. API yang menggunakan protokol REST disebut RESTful API. Pada percobaan ini, metode yang digunakan cukup sederhana, yaitu ESP32 hanya mengirimkan data sensor DHT11 ke server Thingspeak. Seperti pada percobaan sebelumnya, ESP32 harus tersambung pada jaringan WiFi.
 
-# PROGRAM 
+## PROGRAM 
  ```c
  #include <DHT.h>
 #include <ESP8266WiFi.h>
@@ -373,14 +373,14 @@ void loop()
   delay(1000);
 }
 ```
-# HASIL PERCOBAAN
+## HASIL PERCOBAAN
 
 ![image](https://user-images.githubusercontent.com/118667288/210918703-8c53ef2f-a569-4090-be45-a590ad2d2fc5.png)
 
 ![image](https://user-images.githubusercontent.com/118667288/210918736-db82c694-7daf-4cd9-bea8-33b8da672c2b.png)
 
 
-# KESIMPULAN 
+## KESIMPULAN 
 
 Dari percobaan yang telah dilakukan, didapat kesimpulan sebagai berikut:
 
@@ -389,11 +389,11 @@ Dari percobaan yang telah dilakukan, didapat kesimpulan sebagai berikut:
 
 
 
-## D. ESP Now + IOT
+# D. ESP Now + IOT
 ## ANALISA
 Dalam pratikum ini memakai protokol ESP-NOW berjumlah 3 buah ESP32 yang terbagiatas 2 buah ESP32 sebagai Sender dengan terhubung sensor DHT11 dan 1 buah ESP32 sebagai Receive/Koordinator yang akan mengirimkan nilai sensor dari 2 buah ESP32 tadi ke Cayenne.
 
-# PROGRAM 
+## PROGRAM 
 
 SENDER
 ```
@@ -612,7 +612,7 @@ CAYENNE_OUT_DEFAULT()
 ### HASIL
 ![image](https://user-images.githubusercontent.com/121760251/210786623-3974b22e-4f87-4cf7-99f2-0e2c3c43f57a.png)
 
-# KESIMPULAN 
+## KESIMPULAN 
 
 Dalam pratikum ini disimpulkan bahwa pemrogaman untuk IoT dapat dikembangkan lebih lanjut, dengan protokol komunikasi antar ESP32 melalui ESP-NOW dan dapat dikembangkan untuk saling bertukar data dengan memanfaatkan nilai dari sensor DHT11. Kedepannya dapat dikembangkan untuk mengirimkan data sensor-sensor lainnya.
 Nilai dari sensor DHT11 dibaca oleh dashboard Cayenne yang dikirimkan oleh ESP32 Koordinator.
