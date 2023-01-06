@@ -1,13 +1,14 @@
 
 # Jobsheet 4 
-Cayenne (MQTT) + SENSOR (DHT11) + LED (ON/OFF) + BUTTON di website monitoring
-
 
 
 ## Anggota Kelompok
 
 - Hanif Nugraha Ramadhan
 - Muhammad Rafif Hasani
+
+
+## A. CAYENNE (MQTT) + SENSOR (DHT11) + LED (ON/OFF) + BUTTON DI WEBSITE MONITORING
 
 ## Skematik
 ![image](https://user-images.githubusercontent.com/118155742/210129902-f24a85d2-176a-4027-9952-b82e8edb55d9.png)
@@ -108,6 +109,10 @@ Pratikum ini contoh dengan membaca sensor DHT11 yang dikirimkan ke Cayenne dan C
 ## ESP32 + MQTT (Cayenne) + Sensor Temperature, Humidity (DHT11) + LED (Output)
 
 https://user-images.githubusercontent.com/121760251/210358473-1bae9070-5118-448c-a296-1a2ef45dc1a3.mp4
+
+
+## B. ADAFRUIT.IO (MQTT) + IFTTT -> SENSOR (DHT11) + LED (ON/OFF) -> SUARA (GOOGLE ASSITANT)
+
 
 # ESP Now + IOT
 ## Koding
