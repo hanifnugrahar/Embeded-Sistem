@@ -107,6 +107,8 @@ Pratikum ini contoh dengan membaca sensor DHT11 yang dikirimkan ke Cayenne dan C
 https://user-images.githubusercontent.com/121760251/210358473-1bae9070-5118-448c-a296-1a2ef45dc1a3.mp4
 
 
+
+
 # B. ADAFRUIT.IO (MQTT) + IFTTT -> SENSOR (DHT11) + LED (ON/OFF) -> SUARA (GOOGLE ASSITANT)
 
 ## ANALISA 
