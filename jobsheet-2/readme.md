@@ -122,6 +122,8 @@ Pratikum ini memberikan kesimpulan bahwa dalam pemanfaatan ESP32 sebagai mikroko
 
 ## DOKUMENTASI
 
+https://user-images.githubusercontent.com/118155742/210125150-58dc840f-62fe-4d66-9bfc-5c341c3bf518.mp4
+https://user-images.githubusercontent.com/118155742/210124792-97a59261-6ea1-417b-9615-5e0ab913d949.mp4
 ![image](https://user-images.githubusercontent.com/118667288/210337068-a70fb23b-e4d1-4585-b815-69f2e67aa409.png)
 ![image](https://user-images.githubusercontent.com/118667288/210337090-71b93c7e-7c06-42fd-8e42-bb662b11c0aa.png)
 
