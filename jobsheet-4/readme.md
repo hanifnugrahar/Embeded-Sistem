@@ -113,6 +113,9 @@ https://user-images.githubusercontent.com/121760251/210358473-1bae9070-5118-448c
 
 ## B. ADAFRUIT.IO (MQTT) + IFTTT -> SENSOR (DHT11) + LED (ON/OFF) -> SUARA (GOOGLE ASSITANT)
 
+## ANALISA 
+
+Pada percobaan kali ini, digunakan protokol MQTT agar ESP32 dapat berkomunikasi dengan perangkat lain melalui internet. MQTT (Message Queuing Telemetry Transport) protokol merupakan sebuah protokol yang berjalan diatas stack TCP/IP dan dirancang khusus untuk machine to machine yang tidak memiliki alamat khusus. Maksud dari kata tidak memiliki alamat khusus ini seperti halnya sebuah arduino, raspi atau device lain yang tidak memiliki alamat khusus. Sistem kerja MQTT menerapkan Publish dan Subscribe data. Dan pada penerapannya, device akan terhubung pada sebuah Broker dan mempunyai suatu Topic tertentu. Platform MQTT server yang digunakan adalah Adafruit.io. Pada percobaan ini, ESP32 akan mengirimkan data sensor DHT11 (suhu dan kelembaban) ke server MQTT (Adafruit.io) dan akan dicoba untuk melakukan kontrol LED melalui Adafruit.io
 # PROGRAM 
 
 ```c
@@ -260,14 +263,34 @@ void MQTT_connect() {
   }
   Serial.println("MQTT Connected!");
 }
-```c
+```
+
 # RANGKAIAN
 
 ![image](https://user-images.githubusercontent.com/118667288/210917439-3fab5753-4bc0-4531-b494-2601545e3152.png)
 
 ![image](https://user-images.githubusercontent.com/118667288/210917479-8d5d9cd4-a514-49f2-9ddf-d961a4737beb.png)
 
+# HASIL PERCOBAAN
 
+Serial Monitor
+![image](https://user-images.githubusercontent.com/118667288/210917732-da67957a-6d9e-484f-94e3-e3405bd348d5.png)
+
+Adafruit.io
+
+![image](https://user-images.githubusercontent.com/118667288/210917794-ad67d112-c173-4d89-873e-b48c4ac23068.png)
+
+IFTTT
+![image](https://user-images.githubusercontent.com/118667288/210917840-69cbf1be-0ecd-479e-aa53-56ed546da238.png)
+
+
+# KESIMPULAN 
+
+Dari percobaan yang telah dilakukan, didapat kesimpulan sebagai berikut:
+1. ESP32 dapat berkomunikasi melalui internet melalui suatu protokol. Protokol merupakan peraturan atau prosedur untuk mengirimkan sebuah data pada perangkat elektronik.
+2. MQTT merukapan suatu protokol yang sangat ringan dan membutuhkan bandwidth yang sangat kecil, sehingga tidak memerlukan jaringan yang cepat. Namun dengan kekurangan protokol ini hanya bisa bertukar data informasi yaitu publish dan subscribe, tidak dapat malakukan operasi create dan delete.
+3. Salah satu server protokol MQTT yang dapat digunakan adalah Adafruit.io, dengan cara kerja publish (mengirim data ke server) dan subscribe (menerima data dari  server).
+4. ESP32 dapat saling terhubung dengan platform lain melalui internet.
 
 
 # ESP Now + IOT
