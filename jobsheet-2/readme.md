@@ -2,14 +2,14 @@
 # Jobsheet 2 
 PROTOKOL KOMUNIKASI DAN SENSOR
 
-## Anggota Kelompok
+# Anggota Kelompok
 
 - Hanif Nugraha Ramadhan [4.31.20.0.10]
 - Muhammad Rafif Hasani  [4.31.20.0.16]
 
 
-## 1. ESP32 Capacitive Touch Sensor
-# Koding
+# 1. ESP32 CAPASITIVE TOUCH SENSOR
+## PROGRAM
 ## A-capasitivetouchsensor - Hanya membaca sentuhan yang dilakukan dan menampilkan di serial monitor
 ```
 // ESP32 Touch Test
@@ -116,22 +116,20 @@ digitalWrite(ledPin3, LOW);
   delay(500);
 }
 ```
-# Kesimpulan
+## KESIMPULAN
 Pratikum ini memberikan kesimpulan bahwa dalam pemanfaatan ESP32 sebagai mikrokontroller dapat membaca sensor berupa sentuhan kemudian dari sentuhan itu dapat diberikan output dalam contoh ini akan menghidupkan LED dan membuat LED running dari kiri ke kanan.
 
 
-# Dokumentasi
+## DOKUMENTASI
 
 ![image](https://user-images.githubusercontent.com/118667288/210337068-a70fb23b-e4d1-4585-b815-69f2e67aa409.png)
 ![image](https://user-images.githubusercontent.com/118667288/210337090-71b93c7e-7c06-42fd-8e42-bb662b11c0aa.png)
 
 
 
-##
+# 2. Mengakses Sensor DHT 11 (Single/WIRE BUS)
 
-## 2. Mengakses Sensor DHT 11 (Single/WIRE BUS)
-
-# Koding
+## PROGRAM
 
 ## B-DHT
 ```
@@ -342,3 +340,14 @@ digitalWrite(ledPin3, LOW);
  Serial.println(F("°F"));
 }
 ```
+## KESIMPULAN 
+
+Sensor DHT11 berfungsi untuk membaca kelembapan dan suhu yang dapat di ESP32 untuk mengumpulkan data dan menjadikannya sebuah input untuk sebuah sistem seperti dalam contoh jika suhu dibawah 30° C maka LED akan berjalan runnning. Sensor DHT11 memiliki delay pembacaan sekitar 2 detik sehingga pembacaan realtime dengan di serial monitor akan mengalami delay. Sensor DHT memiliki beberapa tipe dan tipe yang dipakai dalam pratikum ini adalah DHT11
+
+## DOKUMENTASI 
+
+B-DHT
+https://user-images.githubusercontent.com/118667288/210920478-b9fef8bf-9538-4845-a22e-d1df5e2ed956.mp4
+
+
+
