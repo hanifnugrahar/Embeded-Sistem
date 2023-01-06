@@ -44,6 +44,58 @@ Serial.println(WiFi.localIP());
 ```
 ![image](https://user-images.githubusercontent.com/118667288/210914918-d1d72905-b24f-4888-8a23-524d9105e958.png)
 
+C. Menghubungkan Kembali (Re-connect) ESP32 dengan Jaringan Wi-Fi
+
+Melanjutkan dari percobaan sebelumnya, pada percobaan kali ini ESP32 digunakan sebagai client dan terhubung ke suatu jaringan WiFi. Seperti pada percobaan B. Menghubungkan ESP32 dengan Jaringan WiFi, untuk percobaan ketiga program ditambahkan perintah untuk melakukan rekoneksi ketika jaringan terputus. Pada percobaan B ketika jaringan terputus maka ESP32 tidak akan melakukan rekoneksi karena belum terdapat perintah untuk rekoneksi, untuk percobaan ini ditambahkan perintah untuk melakukan rekoneksi.
+
+```c
+void loop() {
+ unsigned long currentMillis = millis();
+ // if WiFi is down, try reconnecting every CHECK_WIFI_TIME seconds
+ if ((WiFi.status() != WL_CONNECTED) && (currentMillis - previousMillis >=interval)) {
+   Serial.print(millis());
+   Serial.println("Reconnecting to WiFi...");
+   WiFi.disconnect();
+   WiFi.reconnect();
+   previousMillis = currentMillis;
+ }
+ ```
+ ![image](https://user-images.githubusercontent.com/118667288/210915219-c9919d70-f1bf-4fa1-a60d-2cc2d3bff3e7.png)
+
+D. Mengganti Hostname ESP32
+Melanjutkan dari percobaan sebelumnya, pada percobaan ini hanya ditambahkan perintah untuk mengubah hostname atau nama ESP32 yang terlihat pada jaringan. Dari program sebelumnya hanya ditambahkan baris perintah untuk informasi nama hostname dan baris perintah inisialisasi.
+
+```c
+const char* ssid = "ka";
+const char* password = "123456788";
+String hostname = "ESP32 Node Temperature"; // informasi nama hostname yang akan digunakan
+void initWiFi() {
+WiFi.mode(WIFI_STA);
+WiFi.config(INADDR_NONE, INADDR_NONE, INADDR_NONE, INADDR_NONE);
+WiFi.setHostname(hostname.c_str()); // inisialisasi hostname
+WiFi.begin(ssid, password);
+Serial.print("Connecting to WiFi ..");
+while (WiFi.status() != WL_CONNECTED) {
+Serial.print('.');
+delay(1000);
+}
+Serial.println(WiFi.localIP());
+}
+```
+![image](https://user-images.githubusercontent.com/118667288/210915312-31640fff-f6b8-4185-95f1-047dfdf9a73a.png)
+
+E. Mengirim Data Sensor ke Database
+
+Pada percobaan kali ini, dilakukan percobaa mengirim data sendor ke database melalui jaringan WiFi. Metode penyambungan ke jaringan WiFi menggunakan seperti pada percobaan sebelumnya. Namun pada percobaan ini ditambahkan sensor untuk dikirimkan ke database.
+
+```c
+#include <WiFi.h> // library untuk menggunakan WiFi
+#include <ESPAsyncWebServer.h> // library untuk web server
+#include <Adafruit_Sensor.h> // library untuk mengirim data sensor
+#include <DHT.h> // library untuk membaca sensor
+```
+![image](https://user-images.githubusercontent.com/118667288/210915481-9f399163-d145-44b3-9143-a99c93bcfb3a.png)
+
 ## HASIL PERCOBAAN
 
 A.	ESP32 Wi-Fi Modes dan Wifi-Scan
