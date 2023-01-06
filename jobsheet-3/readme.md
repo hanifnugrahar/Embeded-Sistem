@@ -433,9 +433,9 @@ Melalui percobaan ini dapat disimpulkan bawha:
 3. Kelemahan menggunakan WiFi adalah ESP32 hanya bisa diakses melalui jaringan WiFi yang sama
  
 ## Tugas
- ```
- ![image](https://user-images.githubusercontent.com/118667288/210915688-f7bffe0c-b673-4123-ac8c-6a7943e13a1c.png)
  
+ ![image](https://user-images.githubusercontent.com/118667288/210915688-f7bffe0c-b673-4123-ac8c-6a7943e13a1c.png)
+ ```
  ```c
  #include <Arduino.h>
 #include <WiFi.h>
