@@ -5,7 +5,26 @@ Topologi Jaringan Lokal dan Wifi
 - Hanif Nugraha Ramadhan [4.31.20.0.10]
 - Muhammad Rafif Hasani  [4.31.20.0.16]
 
-## Hasil Percobaan
+## ANALISA
+
+A. ESP32 Wi-Fi Modes dan Wifi-Scan
+
+Pada ESP32, terdapat 3 mode akses untuk Wifi, yaitu WIFI_STA (station mode : ESP32 sebagai client yang terkoneksi ke access point), WIFI_AP (access point mode : ESP32 berperan sebagai access point), WIFI_STA_AP (access point and station : ESP32 dapat terkoneksi dengan access point yang lain). Pada percobaan kali ini, ESP32 digunakan sebagai client. Untuk menjadikan ESP32 sebagai client, mode pada program yang digunakan yaitu WIFI_STA
+
+```c
+void setup() {
+ Serial.begin(115200);
+ WiFi.mode(WIFI_STA); // mode akses station
+ WiFi.disconnect(); // untuk memutus koneksi dengan access point sebelumnya
+ delay(100);
+ Serial.println("Setup done");
+}
+```c
+![image](https://user-images.githubusercontent.com/118667288/210914639-c2eaa0db-3fc6-44ad-90a5-2c2fc243719c.png)
+
+
+
+## HASIL PERCOBAAN
 
 A.	ESP32 Wi-Fi Modes dan Wifi-Scan
 <details>
