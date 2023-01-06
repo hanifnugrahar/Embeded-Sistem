@@ -22,7 +22,6 @@ void setup() {
 ```
 ![image](https://user-images.githubusercontent.com/118667288/210914639-c2eaa0db-3fc6-44ad-90a5-2c2fc243719c.png)
 
-```
 
 B. Menghubungkan ESP32 dengan Jaringan WiFi
 
@@ -44,7 +43,7 @@ Serial.println(WiFi.localIP());
 }
 ```
 ![image](https://user-images.githubusercontent.com/118667288/210914918-d1d72905-b24f-4888-8a23-524d9105e958.png)
-```
+
 ## HASIL PERCOBAAN
 
 A.	ESP32 Wi-Fi Modes dan Wifi-Scan
