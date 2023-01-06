@@ -19,12 +19,32 @@ void setup() {
  delay(100);
  Serial.println("Setup done");
 }
-```c
 ```
 ![image](https://user-images.githubusercontent.com/118667288/210914639-c2eaa0db-3fc6-44ad-90a5-2c2fc243719c.png)
 
 ```
 
+B. Menghubungkan ESP32 dengan Jaringan WiFi
+
+Pada percobaan kali ini, ESP32 digunakan sebagai client dan terhubung ke suatu jaringan WiFi. Seperti pada percobaan A. ESP32 Wi-Fi Modes dan Wifi-Scan, untuk percobaan kedua program ditambahkan informasi mengenai jaringan yang akan disambung.
+
+```c
+#include <WiFi.h>
+const char* ssid = "ka"; // SSID atau nama jaringan WiFi yang akan disambungkan
+const char* password = "123456788"; // password WiFi
+void initWiFi() {
+ WiFi.mode(WIFI_STA); // perintah untuk mode akses client
+ WiFi.begin(ssid, password); // perintah untuk connect berdasarkan informasi SSID dan password yang sudah diberikan
+ Serial.print("Connecting to WiFi ..");
+ while (WiFi.status() != WL_CONNECTED) {
+ Serial.print('.');
+ delay(1000);
+ }
+Serial.println(WiFi.localIP());
+}
+```
+![image](https://user-images.githubusercontent.com/118667288/210914918-d1d72905-b24f-4888-8a23-524d9105e958.png)
+```
 ## HASIL PERCOBAAN
 
 A.	ESP32 Wi-Fi Modes dan Wifi-Scan
