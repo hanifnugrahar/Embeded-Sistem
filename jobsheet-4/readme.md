@@ -8,7 +8,7 @@
 - Muhammad Rafif Hasani
 
 
-## A. CAYENNE (MQTT) + SENSOR (DHT11) + LED (ON/OFF) + BUTTON DI WEBSITE MONITORING
+# A. CAYENNE (MQTT) + SENSOR (DHT11) + LED (ON/OFF) + BUTTON DI WEBSITE MONITORING
 
 ## ANALISA
 Dalam percobaan kali ini menggunakan ESP32 yang terpasang sensor DHT11 berfungsi untuk membaca Suhu dan Temperature kemudian diteruskan oleh ESP32 melalui protokol MQTT (Cayenne) untuk agar bisa terhubung dan berkomunikasi antar mesin.
@@ -97,22 +97,22 @@ CAYENNE_IN(3)
 ```
 
 
-# Kesimpulan
+## Kesimpulan
 Dalam pratikum ini disimpulkan bahwa ESP32 dapat digunakan untuk perangkat IoT yang terhubung ke internet sehingga user dapat kontrol perangkat ESP32 dalam jarah jauh dengan syarat ESP32 selalu terhubung dengan internet dan terhubung ke broker MQTT (dalam pratikum ini menggunakan Cayenne).
 
 Pratikum ini contoh dengan membaca sensor DHT11 yang dikirimkan ke Cayenne dan Cayenne mengirimkan sebuah nilai (0/1) untuk memberikan perintah ESP32 untuk menghidupkan LED.
-# Dokumentasi
+## Dokumentasi
 ## ESP32 + MQTT (Cayenne) + Sensor Temperature, Humidity (DHT11) + LED (Output)
 
 https://user-images.githubusercontent.com/121760251/210358473-1bae9070-5118-448c-a296-1a2ef45dc1a3.mp4
 
 
-## B. ADAFRUIT.IO (MQTT) + IFTTT -> SENSOR (DHT11) + LED (ON/OFF) -> SUARA (GOOGLE ASSITANT)
+# B. ADAFRUIT.IO (MQTT) + IFTTT -> SENSOR (DHT11) + LED (ON/OFF) -> SUARA (GOOGLE ASSITANT)
 
 ## ANALISA 
 
 Pada percobaan kali ini, digunakan protokol MQTT agar ESP32 dapat berkomunikasi dengan perangkat lain melalui internet. MQTT (Message Queuing Telemetry Transport) protokol merupakan sebuah protokol yang berjalan diatas stack TCP/IP dan dirancang khusus untuk machine to machine yang tidak memiliki alamat khusus. Maksud dari kata tidak memiliki alamat khusus ini seperti halnya sebuah arduino, raspi atau device lain yang tidak memiliki alamat khusus. Sistem kerja MQTT menerapkan Publish dan Subscribe data. Dan pada penerapannya, device akan terhubung pada sebuah Broker dan mempunyai suatu Topic tertentu. Platform MQTT server yang digunakan adalah Adafruit.io. Pada percobaan ini, ESP32 akan mengirimkan data sensor DHT11 (suhu dan kelembaban) ke server MQTT (Adafruit.io) dan akan dicoba untuk melakukan kontrol LED melalui Adafruit.io
-# PROGRAM 
+## PROGRAM 
 
 ```c
 #include <ESP8266WiFi.h>
